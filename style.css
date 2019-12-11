@@ -40,7 +40,7 @@ body{
 /*--- Landing page --*/
 
 .home-inner {
-    background-image: url(img/role-playing-games.png)
+    background-image: url(img/jungleWaterFalls.png)
 }
 .caption {
     width: 100%;
@@ -48,7 +48,7 @@ body{
     position: absolute;
     top: 38%;
     z-index: 1;
-    color: yellow;
+    color: #00FF08;
     text-transform: uppercase;   
 }
 .caption h1 {
@@ -131,7 +131,7 @@ h3.heading {
 
 /*--- Systems Requirements Section --*/
 .fixed {
-    background-image: url(img/requirements-v0.01.png);
+    background-image: url(img/jungleWaterFalls.png);
     z-index: -1;
 }
 .dark {
