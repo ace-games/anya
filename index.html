@@ -4,6 +4,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>ACE</title>
+	<link rel="stylesheet" href="ACE.css">
 	<link rel="stylesheet" href="bootstrap-4.1.3-dist/css/bootstrap.min.css">
 	<link rel="stylesheet" href="style.css">
 	<link rel="stylesheet" href="css/fixed.css">
@@ -16,7 +17,7 @@
 
 <!--- Navigation -->
 <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-	<a class="navbar-brand" href="#"><img src="img/ACE.png"></a>
+	<a class="navbar-brand"><img src="img/imageedit_1_4649847639.png"></a>
 	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
 		<span class="navbar-toggler-icon"></span>
 	</button>
@@ -24,25 +25,25 @@
 	<div class="collapse navbar-collapse" id="navbarResponsive">
 		<ul class="navbar-nav ml-auto">
 			<li class="nav-item">
-				<a class="nav-link" href="#home">Home</a>
+				<a class="nav-link" href="#home" onclick="showMainPage('home')">Home</a>
 			</li>
 			<li class="nav-item">
-				<a class="nav-link" href="#aboutgame">About Game</a>
+				<a class="nav-link" href="#aboutgame" onclick="showMainPage('aboutgame')">About Game</a>
 			</li>
 			<li class="nav-item">
-				<a class="nav-link" href="#features">Features</a>
+				<a class="nav-link" href="#features" onclick="showMainPage('features')">Features</a>
 			</li>
 			<li class="nav-item">
-				<a class="nav-link" href="#system-requirements">System Requirements</a>
+				<a class="nav-link" href="#system-requirements" onclick="showMainPage('system-requirements')">System Requirements</a>
 			</li>
 			<li class="nav-item">
-				<a class="nav-link" href="#clients">Clients</a>
+				<a class="nav-link" href="#clients" onclick="showMainPage('clients')">Clients</a>
 			</li>
 			<li class="nav-item">
 				<a class="nav-link" href="#contact">Contact</a>
 			</li>
 			<li class="nav-item">
-				<a class="nav-link" a href="Blog.html">Blog</a>	
+				<a class="nav-link" href="#Blog" onclick="showBlog()">Blog</a>	
 			</li>
 		</ul>
 	</div>
@@ -51,14 +52,14 @@
 <!--- End of Navigation -->
 
 <!--- Start of Landing Page Section -->
-<div class="landing">
+<div id="Landing" class="landing">
 	<div class="home-wrap">
 		<div class="home-inner">
 		</div>
 	</div>
 </div>
 
-<div class="caption text-center">
+<div id="HomeText" class="caption text-center">
 	<h1> Anya and Zuzannah: Group 14's Team Project!</h1>
 	<h3>Coming soon to Android devices</h3>
 	<a class="btn btn-outline-light btn-lg" href="#aboutgame">About Game</a>
@@ -69,6 +70,8 @@
 </div>
 <!--- End Home Section -->
 
+<div id="Main">
+
 <!--- Start About Game Section -->
 <div id="aboutgame" class="offset">
 
@@ -76,7 +79,7 @@
 	<h1>What is our game?</h1>
 	<p class="lead"></p>
 	<p>Developed by Aston Computer Entertainment (ACE), Anya and Zuzannah is a turn based role playing game. Anya, a Russian scientist searching for artefacts in Angel Falls, Venezuela finds an ancient rock made of mankind’s rarest material; unobtanium; with properties that enhances the physical abilities of the wielder. Anya attracts the attention of “The Bandidos Del Caos”, who seek the unobtanium for their own purposes. Alongside Zuzannah, a rebel with a grudge against the Bandidos, Anya must fight against bandit and wildlife alike to escape Angel Falls and to deliver the unobtanium to Gemini Corporation, who promise a handsome award. As Anya progresses throughout the adventure, she’ll discover the true motives of those around her, as well as learn about the origin of the ubobtanium. Have you got what it takes?</p>        
-	<a class="bt btn-secondary btn-md" href="_blank">Download Game APK File here</a>
+	<a class="bt btn-secondary btn-md" href="_blank">Download APK</a>
 </div>
 
 </div>
@@ -178,7 +181,7 @@
 <!--- Start Jumbotron -->
 <div class="jumbotron">
 	<div class="col-12 text-center"> 
-		<h3 class="heading">Clients</h3>
+		<h3 class="heading">Testimonials</h3>
 		<div class="heading-underline"></div>
 	</div>
 
@@ -187,14 +190,14 @@
 		<div class="col-md-6 clients">
 		<div class ="row">
 			<div class="col-md-4">
-				<img src="img/client v0.01.png">
+				<img src="img/silhouette01.png">
 			</div>
 			<div class="col-md-8">
 				<blockquote>
 					<i class="fas fa-quote-left"></i>
-					This game is very good.
+					As a fan of RPG games, Anya and Zuzannah looks promising, and after playtesting the game, I look forward to seeing what else ACE can come up with.</br></br>
 					<hr class="clients-hr">
-					<cite>&#8212; Nadir Khan, Senior Consultant</cite>
+					<cite>&#8212; Ellie Gudgin</cite>
 				</blockquote>
 			</div>
 		</div>		
@@ -203,14 +206,14 @@
 		<div class="col-md-6 clients">
 		<div class ="row">
 			<div class="col-md-4">
-				<img src="img/client v0.02.png">
+				<img src="img/silhouette01.png">
 			</div>
 			<div class="col-md-8">
 				<blockquote>
 					<i class="fas fa-quote-left"></i>
-					This game is very good.
+					With my lifestyle I don’t have the time to sit down and play a lengthy game; Anya and Zuzannah is the kind of game I can pick up and play during the short breaks I have, with the depth and complexity of a game I normally expect.
 					<hr class="clients-hr">
-					<cite>&#8212; Hus, Computer Programmer</cite>
+					<cite>&#8212; Alex Ayton</cite>
 				</blockquote>
 			</div>
 		</div>		
@@ -226,6 +229,246 @@
 </div> 
 </div>
 <!--- End Clients Section -->
+</div>
+
+<!-- Grid -->
+<div class="ACE-row" id="Blog">
+
+</br></br></br>
+
+	<!-- Blog entries -->
+	<div class="ACE-col l8 s12">
+		<!-- Blog entry -->
+		<div class="ACE-card-4 ACE-margin ACE-white">
+		<!--
+			<img src="   " alt="Nature" style="width:100%">
+		-->
+		<div class="ACE-container">
+			<h4><b>Blog Introduction</b></h4>
+			<span class="ACE-opacity">November 10, 2019</span>
+		</div>
+	
+		<div class="ACE-container">
+			<p>As part of the game’s development, Regular updates will be provided on the game as we progress throughout development. As part of the first update, one of our milestones was… making a website! This blog hosts our updates so you can keep up to date with what we’ve been doing.
+			</br></br>
+			So what have we been doing? We’ve been quite busy but before the deadline we managed to get this done:
+			</br></br>
+			Game Design Document: Our design document describes the game, our audience and our overall vision for the game, as well as serving as a reference point throughout the game’s development.
+			</br></br>
+			Software Quality Strategy: The quality strategy document evaluates what design methodologies we are using to develop the project (i.e. agile development or the waterfall model), and what tools we are using to assist our development (i.e. Trello for keeping track of tasks).
+			</br></br>
+			Website: This website hosts our blog (updates to our game), as well as a download link to our game.
+			</br></br>
+			Game engine: Java and libgdx – used as we have programmers on the team already familiar with Java, and two members learnt how to use libgdx.
+			</br></br>
+			Last but not least, a basic prototype of the actual game! This is intended as a quick hack just to demonstrate the feasibility of our ideas and if the game works+ is fun to play in practice.
+			</br></br>
+			After some constructive feedback we’ve managed to flesh out the game’s story, and we’re looking forward to really getting into developing the game further. Until then, stay tuned!
+			</p>
+			<!--
+			<div class="ACE-row">
+				
+			<div class="ACE-col m8 s12">
+				<p><button class="ACE-button ACE-padding-large ACE-white ACE-border"><b>READ MORE »</b></button></p>
+			</div>
+			<div class="ACE-col m4 ACE-hide-small">
+				<p><span class="ACE-padding-large ACE-right"><b>Comments  </b> <span class="ACE-tag">0</span></span></p>
+			</div>
+			</div>
+			-->
+		</div>
+		</div>
+		<hr>
+
+		<!-- Blog entry -->
+	<!--
+		<div class="ACE-card-4 ACE-margin ACE-white">
+				<img src="   " alt="Nature" style="width:100%">
+				<div class="ACE-container">
+					<h3><b>Start of DEVELOPMENT</b></h3>
+					<h5>Title description, <span class="ACE-opacity">October 30, 2019</span></h5>
+				</div>
+			
+				<div class="ACE-container">
+					<p>Mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue ullam corper. Praesent tincidunt sed
+					tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+					<div class="ACE-row">
+					<div class="ACE-col m8 s12">
+						<p><button class="ACE-button ACE-padding-large ACE-white ACE-border"><b>READ MORE »</b></button></p>
+					</div>
+					<div class="ACE-col m4 ACE-hide-small">
+						<p><span class="ACE-padding-large ACE-right"><b>Comments  </b> <span class="ACE-tag">0</span></span></p>
+					</div>
+					</div>
+				</div>
+				</div>
+				<hr>
+	-->
+		<!-- Blog entry -->
+	<!--
+		<div class="ACE-card-4 ACE-margin ACE-white">
+				<img src="   " alt="Nature" style="width:100%">
+				<div class="ACE-container">
+					<h3><b>Start of DEVELOPMENT</b></h3>
+					<h5>Title description, <span class="ACE-opacity">October 30, 2019</span></h5>
+				</div>
+			
+				<div class="ACE-container">
+					<p>Mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue ullam corper. Praesent tincidunt sed
+					tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+					<div class="ACE-row">
+					<div class="ACE-col m8 s12">
+						<p><button class="ACE-button ACE-padding-large ACE-white ACE-border"><b>READ MORE »</b></button></p>
+					</div>
+					<div class="ACE-col m4 ACE-hide-small">
+						<p><span class="ACE-padding-large ACE-right"><b>Comments  </b> <span class="ACE-tag">0</span></span></p>
+					</div>
+					</div>
+				</div>
+				</div>
+				<hr>
+	-->
+		<!-- Blog entry -->
+	<!--
+		<div class="ACE-card-4 ACE-margin ACE-white">
+				<img src="   " alt="Nature" style="width:100%">
+				<div class="ACE-container">
+					<h3><b>Start of DEVELOPMENT</b></h3>
+					<h5>Title description, <span class="ACE-opacity">October 30, 2019</span></h5>
+				</div>
+			
+				<div class="ACE-container">
+					<p>Mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue ullam corper. Praesent tincidunt sed
+					tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+					<div class="ACE-row">
+					<div class="ACE-col m8 s12">
+						<p><button class="ACE-button ACE-padding-large ACE-white ACE-border"><b>READ MORE »</b></button></p>
+					</div>
+					<div class="ACE-col m4 ACE-hide-small">
+						<p><span class="ACE-padding-large ACE-right"><b>Comments  </b> <span class="ACE-tag">0</span></span></p>
+					</div>
+					</div>
+				</div>
+				</div>
+				<hr>
+	-->
+		<!-- Blog entry -->
+	<!--
+		<div class="ACE-card-4 ACE-margin ACE-white">
+				<img src="   " alt="Nature" style="width:100%">
+				<div class="ACE-container">
+					<h3><b>Start of DEVELOPMENT</b></h3>
+					<h5>Title description, <span class="ACE-opacity">October 30, 2019</span></h5>
+				</div>
+			
+				<div class="ACE-container">
+					<p>Mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue ullam corper. Praesent tincidunt sed
+					tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+					<div class="ACE-row">
+					<div class="ACE-col m8 s12">
+						<p><button class="ACE-button ACE-padding-large ACE-white ACE-border"><b>READ MORE »</b></button></p>
+					</div>
+					<div class="ACE-col m4 ACE-hide-small">
+						<p><span class="ACE-padding-large ACE-right"><b>Comments  </b> <span class="ACE-tag">0</span></span></p>
+					</div>
+					</div>
+				</div>
+				</div>
+				<hr>
+	-->
+		
+	
+		<!-- Blog entry -->
+	<!--
+		<div class="ACE-card-4 ACE-margin ACE-white">
+		<img src="    " alt="Jungle" style="width:100%">
+		<div class="ACE-container">
+			<h3><b>BLOG ENTRY</b></h3>
+			<h5>Title description, <span class="ACE-opacity">October 13, 2019</span></h5>
+		</div>
+	
+		<div class="ACE-container">
+			<p>Mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue ullam corper. Praesent tincidunt sed
+			tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+			<div class="ACE-row">
+			<div class="ACE-col m8 s12">
+				<p><button class="ACE-button ACE-padding-large ACE-white ACE-border"><b>READ MORE »</b></button></p>
+			</div>
+			<div class="ACE-col m4 ACE-hide-small">
+				<p><span class="ACE-padding-large ACE-right"><b>Comments  </b> <span class="ACE-badge">2</span></span></p>
+			</div>
+			</div>
+		</div>
+		</div>
+	-->
+	<!-- END BLOG ENTRIES -->
+	</div>
+	
+	<!-- Introduction menu -->
+	<div class="ACE-col l4">
+		<!-- About Team -->
+		<div class="ACE-card ACE-margin ACE-margin-top">
+		<img src="     " style="width:100%">
+		<div class="ACE-container ACE-white">
+			<h4><b>The Team</b></h4>
+			<p>Husameldin Ibrahim - Backend Developer and Website
+			</br>
+			Nadir Khan- Backend Developer
+			</br>
+			Mohammed Bayomi - Front End Graphics
+			</br>
+			Mohammed Qaasim Akhtar - Backend Developer, Website Developer and Testing
+			</br>
+			Vinh Hoang - Front End Graphics and Testing
+			</br>
+			Kevin Wong - Document Writing and Graphics
+			</br>
+			Mohammed Zakaria - Graphics
+			</br>
+			Rohan Singamsetty - Graphics
+			
+			</p>
+		</div>
+		</div><hr>
+		
+		<!-- Posts -->
+		<!--
+		<div class="ACE-card ACE-margin">
+		<div class="ACE-container ACE-padding">
+			<h4>Popular Posts</h4>
+		</div>
+		<ul class="ACE-ul ACE-hoverable ACE-white">
+			<li class="ACE-padding-16">
+			<img src="    " alt="Image" class="ACE-left ACE-margin-right" style="width:50px">
+			<span class="ACE-large">Lorem</span><br>
+			<span>Sed mattis nunc</span>
+			</li>
+			<li class="ACE-padding-16">
+			<img src="     " alt="Image" class="ACE-left ACE-margin-right" style="width:50px">
+			<span class="ACE-large">Ipsum</span><br>
+			<span>Praes tinci sed</span>
+			</li> 
+			<li class="ACE-padding-16">
+			<img src="    " alt="Image" class="ACE-left ACE-margin-right" style="width:50px">
+			<span class="ACE-large">Dorum</span><br>
+			<span>Ultricies congue</span>
+			</li>   
+			<li class="ACE-padding-16 ACE-hide-medium ACE-hide-small">
+			<img src="     " alt="Image" class="ACE-left ACE-margin-right" style="width:50px">
+			<span class="ACE-large">Mingsum</span><br>
+			<span>Lorem ipsum dipsum</span>
+			</li>  
+		</ul>
+		</div>
+		-->
+		<hr> 
+		
+		
+	<!-- END Introduction Menu -->
+	</div>
+	
+<!-- END GRID -->
+</div>
 
 <!--- Start Contact Section -->
 <div id="contact" class="offset">
@@ -233,13 +476,15 @@
 <div class="row justify-content-center">
 
 		<div class="col-md-5 text-center">
-			<img src="img/ACE.png">
+			<img src="img/imageedit_1_4649847639.png">
 			<p>Our core mission: is to design and develop RPG games for hardcore and casual players.</p>
 			<strong>Contact Info</strong>
 			<p>(0121) 777-7777<br>support@ACE.com</p>
 			<a href="" target="_blank"><i class="fab fa-facebook-square"></i></a>
 			<a href="" target="_blank"><i class="fab fa-twitter-square"></i></a>
 			<a href="" target="_blank"><i class="fab fa-instagram"></i></a>
+			</br></br>
+			<a href="References.txt" target="_blank">References</a>
 		</div>
 
 		<hr class="socket">
@@ -256,6 +501,43 @@
 <script src="bootstrap-4.1.3-dist/js/bootstrap.min.js"></script>
 <script src="https://use.fontawesome.com/releases/v5.5.0/js/all.js"></script>
 <!--- End of Script Source Files -->
+
+<script>
+	function showBlog() {
+		document.getElementById("Blog").style.display = "block";
+		document.getElementById("Main").style.display = "none";
+		document.getElementById("HomeText").style.display = "none";
+		document.getElementById("Landing").style.display = "none";
+		$('html, body').animate({ scrollTop: 0 }, 'fast');
+	}
+
+	function showMainPage(link) {
+		var isBlogDisplayed = document.getElementById("Blog").style.display === "block";
+		if(isBlogDisplayed) {
+			document.getElementById("Blog").style.display = "none";
+			document.getElementById("Main").style.display = "block";
+			document.getElementById("HomeText").style.display = "block";
+			document.getElementById("Landing").style.display = "block";
+		}
+
+		//$('#' + link, 'body').animate({ scrollTop: 0 }, 'fast');
+
+		// $(['#' + link, document.body]).animate({
+        // 	scrollTop: $("#elementtoScrollToID").offset().top
+    	// }, 2000);
+
+		var $container = $("html,body");
+		var $scrollTo = $('#' + link);
+
+		//$container.animate({scrollTop: $scrollTo.offset().top - $container.offset().top + $container.scrollTop(), scrollLeft: 0},300); 
+		document.getElementById(link).scrollIntoView();
+	}
+
+	$(".nav .nav-link").on("click", function() {
+		$(".nav").find(".active").removeClass("active");
+		$(this).addClass("active");
+	});
+</script>
 
 </body>
 </html>

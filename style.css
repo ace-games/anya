@@ -20,7 +20,7 @@ body{
     font-weight: 700;
     font-size: .9rem;
     letter-spacing: .1rem;
-    background: rgba(0, 0, 0, 0.6)!important;
+    /* background: rgba(0, 0, 0, 0.6)!important; */
 }
 .navbar-brand img{
     height: 2rem;
@@ -37,6 +37,10 @@ body{
     color: #1ebba3; 
 }
 
+.nav-link {
+    cursor: pointer;
+}
+
 /*--- Landing page --*/
 
 .home-inner {
@@ -48,7 +52,8 @@ body{
     position: absolute;
     top: 38%;
     z-index: 1;
-    color: #00FF08;
+    color: #1ebba3; /* --- #00FF08; --*/
+
     text-transform: uppercase;   
 }
 .caption h1 {
@@ -158,6 +163,11 @@ blockquote .svg.inline--fa {
 }
 .clients-hr {
     border-top: .05rem solid #1ebba3;
+}
+
+/*--- Blog Section ---*/
+.ACE-row {
+    display: none;
 }
 
 /*--- Contact Section --*/
