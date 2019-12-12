@@ -6,6 +6,10 @@ body{
     color: #505962;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .offset:before {
     display: block;
     content: "";
