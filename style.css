@@ -225,6 +225,9 @@ hr.socket {
         display: block;
         margin: 0 auto;
     }
+    html {
+    scroll-behavior: smooth;
+    }
 }
 
 /*============ BOOTSTRAP BREAK POINTS:
