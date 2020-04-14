@@ -2,8 +2,6 @@ References:
 
 Gameover background: https://www.tabletmag.com/wp-content/files_mf/gameover620.jpg
 
-Menu background: https://art.pixilart.com/9d1c0e1a76383ea.png
-
 Action buttons: https://opengameart.org/sites/default/files/789_Lorc_RPG_icons.7z
 
 Play Button from GameOver screen: https://mail-attachment.googleusercontent.com/attachment/u/0/?ui=2&ik=5baafb4d7d&attid=0.2&permmsgid=msg-a:r389312206828299347&th=16e46043189758c4&view=att&disp=safe&realattid=f_k2oql3ce0&saddbat=ANGjdJ__9EZHrrC550mjE21iRRsD5TkcqoJDh_-WJJBRAdKqb4JBSpmOsMvgdz2NDJuBSYlBrdj7-ubDhahPZ5TL6EMyuXljxLYw3muA1jZHIp98J2SMEhWgOf0mpHBMEg7SO5WmGVwYaSU0C7_fjvQ-n649R_1_uGPfMDRzUrDxK4rZy_hLopInDRL9e_Rp5dYvir_fJEi4ZQGmHDH8W1nXusyw7i5gX8OMIgQLSKULUJzp3PhfV7WaIvMLt5FHa6A0A5nu27jrcOPkKTDJP20Sv5YIGjni41S40oZWJM4wRetAWa_KbnmHA9e_62CrESxKtf5gIXn58YaiS01uv2H3YYlLS_vN9uFvuchuGwlAZbceCGaJiMyQnkdejdUYVDfQ7pui8PgGguTtJp0dTWupRndFMjzDnOX7Sa2vIk_uUy9ma8nISbyoNLTokQtia0L1UOY00vhw8bZ9CHbKMpYPyfyha8NByoL2p32P_az5CV_ukqbk1bB-1NY3NO23RrwTDA3dscNXikRy8JjUA8Yn5C-KTP9-gDUnb6kI6FB-FA7yOPE-DSwdkQ7aPu7uR5krqmNtHezne3TEljKrwYFrRpV3k6bzz0p0g3gMLWl8qpr22koRNg_iEu0fu9YUnargNOu9UeBJrNsqxtSnL20BkeLrIZgG3LpizGjJfY_pehLh3B8BZU6DFK6a9fE
@@ -16,3 +14,60 @@ https://www.vectorstock.com/royalty-free-vector/user-silhouette-icon-vector-2368
 
 Background for website:
 https://www.patreon.com/posts/13825712
+
+intro scene1
+https://conceptartempire.com/jungle-environment-art-gallery/
+
+intro scene2
+https://www.artstation.com/artwork/isometric-rune-stone
+
+intro scene3
+http://planejunkie.com/guns-up/
+
+chapter1 scene1
+http://prz-design.blogspot.com/2013/01/jungle-base_14.html
+
+chapter1 scene2
+https://vignette.wikia.nocookie.net/farcry/images/9/96/Far-Cry-3-Screenshot-Pirate-Outpost-570x321.jpg/revision/latest?cb=20121201011348 
+
+chapter1 scene3
+https://www.artstation.com/artwork/Pq8wr
+
+chapter2 scene2
+https://cdnb.artstation.com/p/assets/images/images/000/154/241/large/wang-junling-sjpg.jpg?1407153854
+
+chapter3 scene1
+https://www.deviantart.com/88grzes/art/Mystical-Stone-93560765
+
+chapter3 scene2
+https://fineartamerica.com/art/spiritual
+
+chapter4 scene1
+https://www.artstation.com/artwork/isometric-rune-stone
+
+chapter4 scene2
+https://www.pinterest.co.uk/pin/448389706631049052/
+
+chapter4 scene3
+https://www.pinterest.co.uk/pin/386183736772871852/
+
+chapter5 scene1
+https://pixers.us/stickers/old-treasure-map-39920282
+
+chapter5 scene2
+https://skipperpress.com/portfolio/gallery-prints/explosive-entry/
+
+end scene
+https://www.pinterest.co.uk/pin/445223113149141919/
+
+Character Sprites
+https://sanderfrenken.github.io/Universal-LPC-Spritesheet-Character-Generator/
+
+UI elements (UI Buttons, Health Bar, Dialog Box)
+https://opengameart.org/content/lpc-pennomis-ui-elements
+
+Upgrade Icons
+https://opengameart.org/content/700-rpg-icons
+
+Sikat Font
+https://fonts2u.com/sikat.font
